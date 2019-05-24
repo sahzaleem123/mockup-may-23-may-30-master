@@ -1,0 +1,208 @@
+/* Write all your CSS here */
+/* Please indent properly */
+/* Please use only lower-case letters */
+/* Your webpage should be 100% responsive!!! */
+body{
+    display: flex;
+    margin: 0px;
+}
+#workspaces{
+    display: flex;
+    flex-direction: column;
+    background-color: #200720;
+}
+#workspaces figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12px 20px;
+}
+#workspaces figure img{
+    height: 50px;
+    width: auto;
+    border-radius: 10px;
+}
+#workspaces figcaption{
+    color: #574558;
+}
+#tk-2019{
+    display: flex;
+    flex-direction: column;
+    background-color: #3e0e3f;
+    padding: 10px;
+}
+#tk-2019 div{
+    display: flex;
+    justify-content: space-between;
+}
+#tk-2019 div h2{
+    margin: 0px;
+    color: #ffffff;
+}
+#tk-2019 div h2 > i{
+    font-size: 20px;
+    color: #a09a9f;
+}
+#tk-2019 div i{
+    font-size: 22px;
+    color: #a09a9f;
+}
+#tk-2019 div h3{
+    color: #a09a9f;
+    margin-block-start: 3px;
+    margin-block-end: 10px;
+}
+#tk-2019 div h3 i{
+    font-size: 12px;
+    color: #38938a;
+}
+#search-bar{
+    border: 2px solid;
+    border-radius: 7px;
+    border-color: #3e0e3f;
+
+}
+#search-bar button{
+    border: 1px solid;
+    border-color: #200720;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #200720;
+    padding: 5px;
+}
+#search-bar button i{
+    font-size: 17px;
+}
+#search-bar input{
+    border: 1px solid;
+    border-color: #200720;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #200720;
+}
+#tk-2019 h2{
+    font-size: 20px;
+    color: #ffffff;
+    margin-block-end: 5px;
+}
+#tk-2019 h2 i{
+    color: #a09a9f;
+
+}
+#tk-2019 h3{
+    margin-block-start: 0px;
+    color: #a09a9f;
+}
+#channels{
+    margin-block-start: 5px;
+}
+.channel-list{
+    margin-block-start: 0px;
+    margin-block-end: 10px;
+    list-style-type: none;
+    padding-inline-start: 5px;
+}
+.channel-list li{
+    font-size: 19px;
+    color: #a09a9f;
+}
+.channel-list li:hover{
+    background-color: #1263a3;
+    color: #ffffff;
+}
+.channel-list li >i{
+    font-size: 12px;
+}
+#direct-message{
+    margin-block-start: 15px;    
+}
+.dm-list{
+    margin-block-start: 0px;
+    margin-block-end: 10px;
+    list-style-type: none;
+    padding-inline-start: 5px;
+}
+.dm-list li{
+    font-size: 19px;
+    color: #a09a9f;
+}
+.dm-list li >i{
+    font-size: 12px;
+}
+.dm-list li:nth-child(1) >i{
+    color: #2bac75;
+}
+.dm-list li:nth-child(2) >i{
+    color: #2bac75;
+}
+header{
+    margin-block-start: 20px;
+    padding-inline-start: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.head-left h2{
+    margin-block-start: 0px;
+    margin-block-end: 5px;
+    color: #1e1d1e;
+}
+.head-left div i{
+    padding: 0px 4px;
+    color: #616061;
+}
+.head-left div i:nth-child(2){
+    border-left: 1px solid;
+    border-right: 1px solid;
+
+}
+.head-left div i:nth-child(3){
+    border-right: 1px solid;
+}
+.head-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head-right i{
+    padding: 5px 10px;
+    color: #616061;
+    font-size: 22px;
+}
+.main-search{
+    border: 2px solid;
+    border-radius: 7px;
+    border-color: #868686;
+    margin: 0px 15px;
+}
+.main-search button{
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #ffffff;
+    padding: 0px;
+}
+.main-search button i{
+    font-size: 17px;
+    color: #616061;
+}
+.main-search button i:hover{
+    color: #616061;
+    background-color: #ffffff;
+}
+.head-right i:hover{
+    background-color: #dddddd;
+    color: #1e1d1e;
+    border-radius: 5px;
+}
+
+.main-search input{
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #ffffff;
+    padding: 7px 0px 5px 0px;
+}
+
+
+
+
+
