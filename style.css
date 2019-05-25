@@ -5,6 +5,7 @@
 body{
     display: flex;
     margin: 0px;
+    font-family: 'Lato', sans-serif;
 }
 #workspaces{
     display: flex;
@@ -134,11 +135,14 @@ body{
     color: #2bac75;
 }
 header{
-    margin-block-start: 20px;
     padding-inline-start: 20px;
+    padding-block-start: 10px;
+    padding-block-end: 4px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #b6b4b6;
 }
 .head-left h2{
     margin-block-start: 0px;
@@ -201,8 +205,49 @@ header{
     background-color: #ffffff;
     padding: 7px 0px 5px 0px;
 }
-
-
-
+.chat figure{
+    margin: 0;
+    display: flex;
+    padding-inline-start: 10px;
+}
+.chat figure:hover{
+    background-color: #f8f8f8;
+}
+.chat figure img{
+    height: 50px;
+}
+.chat figcaption{
+    padding-inline-start: 5px;
+}
+.chat figcaption div{
+    padding-block-start: 4px;
+    display: flex;
+}
+.chat figcaption div h4{
+    margin: 0;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.chat figcaption div p{
+    margin: 0;
+    padding-inline-start: 6px;
+    padding-block-start: 4px;
+    font-size: 13px;
+}
+.chat figcaption p{
+    margin: 0;
+}
+.chat figcaption i{
+    color: #fec11b;
+}
+.chat figcaption p i{
+    color: #bfc0bc;
+    background-color: #fbfcfc;
+}
+.chat figcaption span{
+    background-color: #f6f6f6;
+    padding: 1px 5px 1px 5px;
+    border-radius: 10px;
+}
 
 
