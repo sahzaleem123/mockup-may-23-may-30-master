@@ -95,6 +95,10 @@ body{
 #channels{
     margin-block-start: 5px;
 }
+#channels:hover h3{
+    color: #ffffff;
+}
+
 .channel-list{
     margin-block-start: 0px;
     margin-block-end: 10px;
@@ -114,6 +118,9 @@ body{
 }
 #direct-message{
     margin-block-start: 15px;    
+}
+#direct-message:hover h3{
+    color: #ffffff;
 }
 .dm-list{
     margin-block-start: 0px;
@@ -143,6 +150,9 @@ header{
     border-top: 1px solid;
     border-bottom: 1px solid;
     border-color: #b6b4b6;
+}
+#hambar{
+    display: none;
 }
 .head-left h2{
     margin-block-start: 0px;
@@ -209,6 +219,7 @@ header{
     margin: 0;
     display: flex;
     padding-inline-start: 10px;
+    padding-block-end: 3px;
 }
 .chat figure:hover{
     background-color: #f8f8f8;
@@ -249,5 +260,44 @@ header{
     padding: 1px 5px 1px 5px;
     border-radius: 10px;
 }
-
+.chat a{
+    text-decoration: none;
+}
+.chat .emoji-1 i{
+    color: #d22a34;
+}
+.chat .emoji-2 i{
+    color:#73a648;
+}
+.chat fieldset{
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    border-color: #dddddd;
+    border-width: 1px;
+}
+.chat fieldset{
+    text-align: center;
+}
+@media only screen and (max-width: 1170px){
+    #workspaces{
+        display: none;
+    }
+}
+@media only screen and (max-width: 980px){
+    #tk-2019{
+        display: none;
+    }
+}
+@media only screen and (max-width: 750px){
+    .head-right{
+        display: none;
+    }
+    #hambar{
+        display: block;
+        font-size: x-large;
+        padding-block-start: 10px;
+        padding-inline-end: 5px;
+    }
+}
 
